@@ -1,0 +1,57 @@
+ .details{
+    background: rgba( 83, 82, 82, 0.5 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 8px );
+    -webkit-backdrop-filter: blur( 8px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    padding: 20px 0px;
+    width: 60%;
+    
+    margin: auto;
+    color: rgb(214, 183, 183);
+    font-size: 20px;
+}
+
+.details h3 {
+    margin-top: 5px;
+}
+
+.details h1 {
+    font-size: 60px;
+    color: white;
+}
+
+.button{
+    font-size: 20px;
+    padding: 8px;
+    border-radius: 3px;
+    border: none;
+    margin-left: 1px;
+}
+
+.button:active{
+    position: relative;
+    top: 1.5px;
+}
+
+.button:hover{
+    background-color: rgba(0, 0, 0, 0.178);
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(214, 183, 183);
+}
+
+.img{
+    width: 300px;
+
+}
+
+.container {
+    display:flex;
+    justify-content: space-around;
+}
+

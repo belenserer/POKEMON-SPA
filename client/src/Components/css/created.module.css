@@ -1,0 +1,109 @@
+.form {
+    display: flex;
+    width: 900px;
+    height: 900px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgba( 108, 107, 107, 0.3 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 9.5px );
+    -webkit-backdrop-filter: blur( 9.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    font-size: 18px;
+    font-family: 'Ubuntu', sans-serif;
+    padding-top: 5%;
+}
+
+h1{
+    padding: 3%;
+}
+
+.buttonContainer{
+    width: 100%;
+    left: 0;
+    position: fixed;
+    padding: 6% 1%;
+    padding-left: 10%;
+    /* z-index: 999; */
+    display: flex;
+    justify-content: flex-start;
+}
+
+.button{
+    padding: 15px;
+    border-radius: 3px;
+    border: none;
+    margin-left: 1px;
+    font-size: medium;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.button:active{
+    position: relative;
+    top: 1.5px;
+}
+
+.button:hover{
+    background-color: rgba(0, 0, 0, 0.178);
+    cursor: pointer;
+}
+
+.disabled{
+    padding: 2%;
+    font-size: medium;
+}
+
+.selectedType {
+    margin-top: 7px;
+}
+.xButton {
+    color: red;
+}
+
+.xButton:hover {
+    cursor: pointer;
+}
+
+.error {
+    color: red;
+    width: 100%;
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 20px;
+    margin-top: 6px;
+}
+
+.divContent {
+    width: 500px;
+    /* background-color: azure; */
+    display: flex;
+    flex-flow: row wrap;
+    padding: 10px;
+    margin: 2px;
+    align-items: center;
+}
+
+label{
+    width: 100px;
+}
+
+input, select {
+    width: 70%;
+    padding: 8px;
+    border-radius: 6px;
+
+}
+
+.types {
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: space-around;
+}
+
+select{
+    width: 74%;
+}
