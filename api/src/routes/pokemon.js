@@ -31,14 +31,14 @@ router.get("/", async (req, res, next) => {
       pokemonByName = [pokemonApi];
     }
 
-    if (pokemonByName.length > 0) {
+    //7if (pokemonByName.length > 0) {
       console.log("llega a buscar el pokemon");
       res.status(200).send(pokemonByName);
-    } else {
-      console.log("entro al else de buscar o sea no encontro ninguno");
-      res.send("not found");
-      return "not found";
-    }
+    //} else {
+      //console.log("entro al else de buscar o sea no encontro ninguno");
+      //res.send("not found");
+      //return "not found";
+    //}
   }
 });
 

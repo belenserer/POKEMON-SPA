@@ -119,7 +119,7 @@ const getPokemonByIdApi = async (id) => {
         speed: searchIdApi.data.stats[5].base_stat,
         height: searchIdApi.data.height,
         weight: searchIdApi.data.weight,
-        image: searchIdApi.data.sprites.front_default,
+        image: searchIdApi.data.sprites.other.dream_world.front_default
       };
 
       return searchIdPokemonApi;
@@ -148,7 +148,7 @@ const getPokemonByNameApi = async (name) => {
       speed: pokemonApi.data.stats[5].base_stat,
       height: pokemonApi.data.height,
       weight: pokemonApi.data.weight,
-      image: pokemonApi.data.sprites.front_default,
+      image: pokemonApi.data.sprites.other.dream_world.front_default
     };
 
     return nameSearchApi;
